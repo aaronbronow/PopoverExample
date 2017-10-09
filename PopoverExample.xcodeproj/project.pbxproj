@@ -35,19 +35,19 @@
 		E74CDF741455E77B003B1271 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		E74CDF751455E77B003B1271 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		E74CDF761455E77B003B1271 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		E74CDF791455E77B003B1271 /* PopoverExample-Info.plist */ = {isa = PBXFileReference; path = "PopoverExample-Info.plist"; sourceTree = "<group>"; };
+		E74CDF791455E77B003B1271 /* PopoverExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PopoverExample-Info.plist"; sourceTree = "<group>"; };
 		E74CDF7B1455E77B003B1271 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E74CDF7D1455E77B003B1271 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E74CDF7F1455E77B003B1271 /* PopoverExample-Prefix.pch */ = {isa = PBXFileReference; path = "PopoverExample-Prefix.pch"; sourceTree = "<group>"; };
+		E74CDF7F1455E77B003B1271 /* PopoverExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PopoverExample-Prefix.pch"; sourceTree = "<group>"; };
 		E74CDF811455E77B003B1271 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		E74CDF831455E77B003B1271 /* NVAppDelegate.h */ = {isa = PBXFileReference; path = NVAppDelegate.h; sourceTree = "<group>"; };
+		E74CDF831455E77B003B1271 /* NVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NVAppDelegate.h; sourceTree = "<group>"; };
 		E74CDF841455E77B003B1271 /* NVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NVAppDelegate.m; sourceTree = "<group>"; };
 		E74CDF871455E77B003B1271 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		E74CDF8E1455E77B003B1271 /* PopoverExampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopoverExampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E74CDF8F1455E77B003B1271 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		E74CDF961455E77B003B1271 /* PopoverExampleTests-Info.plist */ = {isa = PBXFileReference; path = "PopoverExampleTests-Info.plist"; sourceTree = "<group>"; };
+		E74CDF961455E77B003B1271 /* PopoverExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PopoverExampleTests-Info.plist"; sourceTree = "<group>"; };
 		E74CDF981455E77B003B1271 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E74CDF9A1455E77B003B1271 /* PopoverExampleTests.h */ = {isa = PBXFileReference; path = PopoverExampleTests.h; sourceTree = "<group>"; };
+		E74CDF9A1455E77B003B1271 /* PopoverExampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopoverExampleTests.h; sourceTree = "<group>"; };
 		E74CDF9B1455E77B003B1271 /* PopoverExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopoverExampleTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -371,6 +371,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PopoverExample/PopoverExample-Prefix.pch";
 				INFOPLIST_FILE = "PopoverExample/PopoverExample-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -382,6 +383,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PopoverExample/PopoverExample-Prefix.pch";
 				INFOPLIST_FILE = "PopoverExample/PopoverExample-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
